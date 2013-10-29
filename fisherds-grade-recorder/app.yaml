@@ -15,12 +15,6 @@ handlers:
 - url: /images
   static_dir: images
 
-- url: /js
-  static_dir: js
-  
-#Endpoints handler
-- url: /_ah/spi/.*
-  script: grade_recorder_api.app
 
 #Main handler
 - url: .*
